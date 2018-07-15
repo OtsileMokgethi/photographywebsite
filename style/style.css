@@ -1,0 +1,310 @@
+body{
+	font-family: Arial;
+}
+
+h1{
+	margin-top: 15%;
+	size: 5em;
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+	color:white;
+}
+
+h3{
+	color:white;
+}
+
+p{
+	font-size: 1.2em;
+	padding:20px;
+}
+
+li{
+	list-style: none;
+}
+
+/* 
+	carousel Styling
+*/
+
+#slider{
+	margin-top: 50px;
+}
+
+#slider .item{
+	height:500px;
+}
+
+#slide1{
+	background:url('carousel-img/wedding.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide2{
+	background:url('carousel-img/fashion.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#slide3{
+	background:url('carousel-img/event.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.carousel-caption h1{
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+	text-decoration: none;
+}
+
+.carousel-caption p{
+	font-size:20px;
+	padding-bottom: 30px;
+	font-family: Arial, Sans-serif;
+	font-style: italic;
+}
+
+.carousel-caption .btn-lg{
+	margin-bottom: 30px;
+}
+
+.carousel-btn {
+	padding:12px;
+	border-radius: 0px;
+}
+.carousel-btn:hover{
+	color:#fff;
+	background-color: #3082f2; 
+}
+.carousel-btn a{
+	padding: 8px;
+	color:#1e4984;
+}
+
+.carousel-btn a:hover{
+	color: white;
+	background-color: #3082f2; 
+}
+.carousel-indicators{
+	display: none;
+}
+
+/*
+	about.php styling
+*/
+
+.about-me{
+	width:100%;
+}
+
+.about-me img{
+	padding: 6px;
+}
+
+.about-me .thumbnail {
+	background-color: #3082f2;
+}
+
+
+/*
+	quote section Styling
+*/
+
+.qoute{
+	margin-top: 50px;
+	width: 100%;
+	height: 750px;
+	background-image: url("photos/camera.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.bible{
+	margin-top: 50px;
+	background-color: #000; 
+    width:40%; 
+    padding:20px; 
+    opacity:0.7;
+    float: right;
+}
+.bible h1{
+	font-family: Arial, Sans-serif;
+}
+/*
+	Latest Work section Styling
+*/
+
+.latest-work{
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #d2deed;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/*margin: 0px 0px 0px 0px;*/
+}
+
+.header{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/*
+	view full gallery button styling
+*/
+
+.gallery-full-button{
+	border-radius: 0px;
+	padding:20px;
+}
+
+.gallery-full-button li{
+	color:white;
+	list-style: none;
+}
+.gallery-full-button li:hover{
+	color: #3082f2;
+}
+.gallery-full-button li a{
+	padding: 12px 12px 12px 12px;
+	color:#1e4984;
+}
+
+.gallery-full-button li a:hover{
+	color: white;
+	background-color: #3082f2; 
+}
+
+/*
+	footer Syling
+*/
+
+footer{
+	margin-top: 30px;
+	margin-bottom: 0px;
+	background-color: #fff;
+}
+footer .footer-menu{
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+
+footer .footer-menu:hover{
+	text-decoration: underline;
+
+}
+footer .footer-tag{
+	color: #f00;
+	font-style: italic;
+}
+
+footer .footer-tag a{
+	font-style:normal;
+}
+
+/*
+	Navigation Bar Styling
+*/
+
+.div-head{
+	padding-top: 60px;
+	font-family: 'Lobster', cursive;
+}
+
+.nav-default{
+	background-color: #d2deed;
+}
+
+.full-gallery{
+	background-color: #d2deed;
+	margin-top: 50px;
+}
+
+.gallery-head {
+	font-family: 'Lobster', cursive;
+	margin-top: 60px;
+}
+
+.event-gallery{
+	background-color: #d2deed;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.wedding-gallery{
+	background-color: #d2deed;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.fashion-gallery{
+	background-color: #d2deed;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.contact-me{
+	background-color: #d2deed;
+	background-image: url("photos/kg-mok.png");
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+
+}
+
+.contact-me .jumbotron{
+	opacity: 1.0;
+	border-radius: 0px;
+}
+
+form{
+	font-family: 'Arial', Sans-serif;
+	font-size: 16px;
+	margin-top:70px;
+	padding: 50px;
+	background-color: #dedede;
+}
+
+#specify{
+	float: right;
+	margin-top: 10px;
+}
+
+#type{
+	width:310px;
+	float: right;
+}
+
+.navbar-default{
+	background-color: #1e4984;
+	border-color: #1e4984;
+}
+
+.navbar-default .navbar-brand{
+	color:white;
+}
+.navbar-default .navbar-brand:hover{
+	background-color: #3082f2;
+	color:#dedede;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+	background-color: #3082f2;
+	color:#fff;
+}
+
+.navbar-default .navbar-nav li a{
+	color:#fff;
+}
+
